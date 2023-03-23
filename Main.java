@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int[] num2 = makeArray(17,7);
         Arrays.stream(num2).forEach(System.out::println);
+        System.out.println(EqualsFunction.isSameNume(4,4));
     }
 
     public static int[] makeArray(int start, int len) {
