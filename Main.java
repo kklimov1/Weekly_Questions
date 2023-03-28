@@ -5,6 +5,7 @@ public class Main {
         int[] num2 = makeArray(17,7);
         Arrays.stream(num2).forEach(System.out::println);
         System.out.println(EqualsFunction.isSameNume(4,4));
+        System.out.println(GetVoteCount.getVoteCount(12,0));
     }
 
     public static int[] makeArray(int start, int len) {
