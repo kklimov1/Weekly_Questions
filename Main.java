@@ -6,6 +6,7 @@ public class Main {
         Arrays.stream(num2).forEach(System.out::println);
         System.out.println(EqualsFunction.isSameNume(4,4));
         System.out.println(GetVoteCount.getVoteCount(12,0));
+        System.out.println("remainder: " + Remainder.remainder(6,6));
     }
 
     public static int[] makeArray(int start, int len) {
