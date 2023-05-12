@@ -72,9 +72,21 @@ public class Main3 {
         System.out.println(min);
         */
 
-        Integer[] myArray = {5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243};
-        int result = May1.diff(myArray);
-        System.out.println(result);
+        Integer[] myArray = {2,3,4 };
+        Integer[] myArray2 = { 1,4};
+        double m = Med2Arrays.findMedianArrays(myArray, myArray2);
+        System.out.println(m);
+
+        LinkedList<Integer> ll0 = new LinkedList<>();
+        LinkedList<Integer> ll1 = new LinkedList<>();
+
+        ll0.add(2);
+        ll0.add(3);
+        ll0.add(4);
+
+        ll1.add(0);
+        ll1.add(5);
+        Mergek.func(ll0, ll1);
     }
 
     public static boolean divisible2and3(Integer cv) {
