@@ -1,5 +1,5 @@
 import java.util.LinkedList;
-
+/*
 public class Mergek {
     public static LinkedList func(LinkedList ... args){
         int len=0;
@@ -7,7 +7,7 @@ public class Mergek {
         for (int i=0; i<args.length; i++){
             len+=args[i].size();
             for (int j =0; j<args[i].size(); j++){
-                L.add(args[i].get(j))
+                L.add(args[i].get(j));
             }
 
         }
@@ -18,3 +18,4 @@ public class Mergek {
     }
 
 }
+*/

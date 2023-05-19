@@ -1,9 +1,12 @@
 package May19;
 
-public class Node {
-    Integer val;
-    Node next;
-    Node (Integer val) {
-        this.val = val;
+public class Node1 {
+    public Integer val;
+    public Node1 next;
+
+    public Node1(Integer data) {
+        this.val = data;
+        this.next = null;
     }
+
 }

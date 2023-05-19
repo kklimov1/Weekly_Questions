@@ -86,7 +86,7 @@ public class Main3 {
 
         ll1.add(0);
         ll1.add(5);
-        Mergek.func(ll0, ll1);
+        //Mergek.func(ll0, ll1);
     }
 
     public static boolean divisible2and3(Integer cv) {
